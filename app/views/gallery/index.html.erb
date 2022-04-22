@@ -1,0 +1,10 @@
+<% @users.each do |user| %>
+  <ul>
+    <li><%= user["id"] %></li>
+    <li><%= user["email"] %></li>
+    <li><%= user["first_name"] %></li>
+    <li><%= user["last_name"] %></li>
+    <li><%= user["avatar"] %></li>
+  </ul>
+  <br/>
+<% end %>
